@@ -1,4 +1,5 @@
-a = []
+T = int(input())
 
-for a in map(int, input().split()):
-    a[0]+a[1]
+for i in range(T):
+    A, B = map(int, input().split())
+    print(A+B)
