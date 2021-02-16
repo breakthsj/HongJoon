@@ -9,5 +9,4 @@ for case in range(C):
     for student in score:
         if student > mean:
             cnt += 1
-    # print('{:.3f}%'.format(round(cnt/N*100, 3)))
-    print(f'{(cnt / len(score)) * 100:.3f}%')
+    print('{:.3f}%'.format(round(cnt/N*100, 3)))
